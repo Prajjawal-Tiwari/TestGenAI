@@ -5,7 +5,7 @@ from langchain.chains import LLMChain
 import streamlit as st
 
 # --- Set Hugging Face API Token Directly in the Script ---
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = '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'
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = 'your token'
 
 # --- Page config ---
 st.set_page_config(page_title="TestGenAI – Simple and clear: Test Generation using AI", layout="centered")
